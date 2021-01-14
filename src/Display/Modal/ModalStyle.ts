@@ -88,7 +88,7 @@ export const ModalContentArea = styled.div<ModalContentAreaProps>`
       `;
     }
   }}
-
+    
   @media (max-width: ${ScreenSize.mobileM}px) {
     width: 95vw;
   }

@@ -34,6 +34,7 @@ exports[`<Gallery /> active item click on gallery item 1`] = `
   position: relative;
   background: transparent;
   margin: 120px auto;
+  max-width: 95vw;
   outline: none;
   width: 500px;
 }
@@ -297,10 +298,6 @@ exports[`<Gallery /> active item click on gallery item 1`] = `
 
 .c16 img.active {
   border: 1px solid #FFFFFF;
-}
-
-@media (max-width:950px) {
-
 }
 
 @media (max-width:480px) {
@@ -727,6 +724,7 @@ exports[`<Gallery /> active item click on gallery thumbnail 1`] = `
   position: relative;
   background: transparent;
   margin: 120px auto;
+  max-width: 95vw;
   outline: none;
   width: 500px;
 }
@@ -990,10 +988,6 @@ exports[`<Gallery /> active item click on gallery thumbnail 1`] = `
 
 .c16 img.active {
   border: 1px solid #FFFFFF;
-}
-
-@media (max-width:950px) {
-
 }
 
 @media (max-width:480px) {
@@ -1420,6 +1414,7 @@ exports[`<Gallery /> rendering should match snapshot when imagesDisplayed is set
   position: relative;
   background: transparent;
   margin: 120px auto;
+  max-width: 95vw;
   outline: none;
   width: 500px;
 }
@@ -1526,10 +1521,6 @@ exports[`<Gallery /> rendering should match snapshot when imagesDisplayed is set
   font-size: 18px;
   background: rgba(255,255,255,0.75);
   cursor: pointer;
-}
-
-@media (max-width:950px) {
-
 }
 
 @media (max-width:480px) {
@@ -1656,6 +1647,7 @@ exports[`<Gallery /> rendering should match snapshot when item is less than defa
   position: relative;
   background: transparent;
   margin: 120px auto;
+  max-width: 95vw;
   outline: none;
   width: 500px;
 }
@@ -1737,10 +1729,6 @@ exports[`<Gallery /> rendering should match snapshot when item is less than defa
 .c2 {
   position: relative;
   margin: 5px;
-}
-
-@media (max-width:950px) {
-
 }
 
 @media (max-width:480px) {
@@ -1851,6 +1839,7 @@ exports[`<Gallery /> rendering should match snapshot when slider is not shown 1`
   position: relative;
   background: transparent;
   margin: 120px auto;
+  max-width: 95vw;
   outline: none;
   width: 500px;
 }
@@ -1957,10 +1946,6 @@ exports[`<Gallery /> rendering should match snapshot when slider is not shown 1`
   font-size: 18px;
   background: rgba(255,255,255,0.75);
   cursor: pointer;
-}
-
-@media (max-width:950px) {
-
 }
 
 @media (max-width:480px) {
@@ -2127,6 +2112,7 @@ exports[`<Gallery /> rendering should match snapshot when slider is shown 1`] = 
   position: relative;
   background: transparent;
   margin: 120px auto;
+  max-width: 95vw;
   outline: none;
   width: 500px;
 }
@@ -2390,10 +2376,6 @@ exports[`<Gallery /> rendering should match snapshot when slider is shown 1`] = 
 
 .c16 img.active {
   border: 1px solid #FFFFFF;
-}
-
-@media (max-width:950px) {
-
 }
 
 @media (max-width:480px) {
