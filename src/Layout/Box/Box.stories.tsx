@@ -5,7 +5,6 @@ import { Box } from './index';
 import { BoxProps } from './types';
 import { BaseContainer } from '../../Layout/GlintsContainer/GlintsContainer';
 import * as S from './BoxStoryStyle';
-import { BreakpointAliasTable } from './BreakpointAliasTable';
 
 export default {
   title: 'Layout/Box',
