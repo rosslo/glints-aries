@@ -85,17 +85,10 @@ describe('when a value is entered', () => {
 });
 
 describe('when status is:', () => {
-  it("'success', it should display a lightblack border", () => {
-    const { textareaInput } = setupTextarea(props, { status: 'success' });
-    expect(textareaInput).toHaveStyle(`
-      border-color: ${SecondaryColor.lightblack};
-    `);
-  });
-
-  it("'error', it should display a red border", () => {
+  it("'error', it should display a red background", () => {
     const { textareaInput } = setupTextarea(props, { status: 'error' });
     expect(textareaInput).toHaveStyle(`
-      border-color: ${PrimaryColor.glintsred};
+      background-color: rgba(236, 39, 43, 0.08);
     `);
   });
 });
